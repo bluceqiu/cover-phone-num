@@ -1,13 +1,21 @@
 {
   "name": "cover-phone-num",
   "version": "1.0.1",
-  "main": "index.js",
+  "main": "./src/index.js",
   "keywords": [
     "cover",
     "phoneNum",
     "*",
     "hide"
   ],
+  "scripts": {
+    "build": "rollup ./src/index.js --file ./dist/bundle.js --format umd --name 'umdBundle'"
+  },
   "author": "420343878@qq.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "cover-phone-num": "^1.0.1",
+    "rollup": "^2.10.0"
+  }
 }
