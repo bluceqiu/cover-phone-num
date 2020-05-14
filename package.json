@@ -2,7 +2,12 @@
   "name": "cover-phone-num",
   "version": "1.0.1",
   "main": "index.js",
-  "keywords": ["cover", "phoneNum", "*", "hide"],
+  "keywords": [
+    "cover",
+    "phoneNum",
+    "*",
+    "hide"
+  ],
   "author": "420343878@qq.com",
   "license": "MIT"
 }
