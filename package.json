@@ -1,7 +1,7 @@
 {
   "name": "cover-phone-num",
   "version": "1.0.1",
-  "main": "./src/index.js",
+  "main": "./dist/bundle.js",
   "keywords": [
     "cover",
     "phoneNum",
